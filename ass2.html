@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Ass 2</title>
+</head>
+<body>
+<pre>
+<p>&#35;include&lt;stdio.h&gt;
+&#35;include&lt;conio.h&gt;
+int exp&#40;int base, int power&#41;
+&#123;
+     if&#40;power==0&#41;
+       &#123;         return 1;
+     else
+       &#123;         power&ndash;&ndash;;
+                      return base&lowast;exp&#40;base,power&#41;;
+       &#125;
+&#125;
+main&#40;&#41;
+&#123;
+   int x=2 , y=3 ;
+   clrscr&#40;&#41;;
+   printf&#40;&#34; &#37;d &#94; &#37;d = &#37;d&#34;,x,y,exp&#40;x,y&#41;&#41;;
+   getch&#40;&#41;; return 0;
+&#125;
+</p>
+</pre>
+
+
+</body>
+</html>
